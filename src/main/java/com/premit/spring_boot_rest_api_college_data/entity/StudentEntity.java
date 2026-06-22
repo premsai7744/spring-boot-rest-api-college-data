@@ -12,7 +12,7 @@ public class StudentEntity {
 
     @GeneratedValue(strategy = GenerationType.UUID)
     @Id
-    @Column(name="stu_name")
+    @Column(name="stu_id")
     private UUID studentId;
 
     @Column(name="stu_name")
